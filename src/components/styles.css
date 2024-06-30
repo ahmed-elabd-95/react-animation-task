@@ -1,0 +1,31 @@
+.counter-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    width: 100%;  
+}
+.counter-persentage{
+    display: flex;
+    width: 39%;
+    padding-top: 10%;
+    color: #fff;
+}
+.counter-container h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: 'BentonSans-medium';
+}
+@media only screen and (max-width: 700px) {
+    .logo-section{
+        width: 60%;
+    }
+    .logo-section .logo img{
+        width: 100%;
+
+    }
+    }
